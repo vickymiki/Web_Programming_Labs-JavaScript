@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>TV Maze API Shows</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="/public/css/site.css" />
+    </head>
+
+    <body>
+        <header class="header">
+            <h1>TV Maze API Shows</h1>
+        </header>
+
+        <form id="searchForm" method="POST">
+            <label id="formLabel" for="search_term">
+                Search Term:
+                <input type="text" id="search_term" />
+            </label>
+            <button class="submit_btn" type="submit" id="btn-submit">
+                Search
+            </button>
+        </form>
+        <div id="error-div" hidden>
+            <p class="error">Provide a value to search</p>
+        </div>
+
+        <ul id="showList" hidden></ul>
+        <div id="show" hidden></div>
+
+        <a href="/" id="homeLink" hidden>Back to All Shows</a>
+
+        <footer class="footer" id="footer">
+            <h3>Vikrant Gajare : 10459368</h3>
+        </footer>
+        <script
+            src="https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+            crossorigin="anonymous"
+        ></script>
+        <script src="/public/js/static_home.js"></script>
+    </body>
+</html>
