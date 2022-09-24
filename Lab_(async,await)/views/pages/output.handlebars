@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><title>Characters Found</title></head>
+<h1 class="page_name">Characters Found</h1>
+<h2 class= "search_term">{{search}}</h2>
+<ul>
+    {{#each data}}
+    <li class="each_entry">
+        <a href="/characters/{{this.id}}">{{this.name}}</a>
+    </li>
+    {{/each}}
+</ul>
+</html>

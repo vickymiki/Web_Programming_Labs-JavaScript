@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><title>{{character_data.name}}</title></head>
+<main>
+    <div>
+        <h1 class="page_name">{{character_data.name}}</h1>
+        <img alt={{character_data.name}} src="{{character_data.thumbnail.path}}.{{character_data.thumbnail.extension}}" />
+        <p>{{character_data.description}}</p>
+        <h2>Comics</h2>
+        <ul>
+            {{#each character_data.comics.items}}
+                <li class="each_entry_comic">{{this.name}}</li>
+            {{/each}}
+        </ul>
+    </div>
+</main>
+</html>

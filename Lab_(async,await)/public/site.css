@@ -1,0 +1,85 @@
+* {
+	box-sizing: border-box;
+}
+
+html,body {
+	font-size: 14pt;
+}
+
+body {
+	background: #ececec;
+	font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+header {
+	border-bottom: 1px dashed #9fd3c7;
+}
+
+main {
+	max-width: 95%;
+	margin: auto;
+}
+
+p {
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+.page_name {
+	border: 2px dashed  #228b22 !important;
+}
+
+.input_search {
+	font-size: 20px;
+}
+.search_button {
+	font-size: 20px;
+	background-color: aquamarine;
+}
+
+.search_button:hover {
+	background-color: chartreuse;
+	cursor: pointer;
+
+}
+
+.each_entry {
+	margin-bottom: 5px;
+	width: 23%;
+	background: #e7eaf6;
+	border: 1px dashed;
+	padding: 4px;
+}
+
+.each_entry_comic  {
+	margin: 2px;
+	width: 30%;
+	background: #e7eaf6;
+	border: 1px dashed;
+	padding: 4px;
+}
+.each_entry_comic:hover  {
+
+	background: cyan;
+
+}
+
+h1,h2 {
+	color: #222;
+	margin-bottom: 5px;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+}
+
+.search_term {
+	width: 50%;
+    border: 1px solid #66bfbf;
+    padding: 4px 1px 7px 30px;
+	background-color: darkkhaki;
+}
