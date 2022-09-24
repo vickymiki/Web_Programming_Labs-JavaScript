@@ -1,0 +1,67 @@
+html,body {
+	font-size: 14pt;
+}
+
+body {
+	background: #ececec;
+	font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+h3 {
+    color:darkolivegreen
+}
+
+li {
+    border: 1px dashed black;
+    max-width: 24%;
+    padding: 3px 3px 7px 7px;
+    margin: 2px 0px 2px 0px;
+}
+
+li:hover {
+    background-color: antiquewhite;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.inputClass {
+    border: 3px solid red;
+
+    background-color: #eee;
+}
+
+.is-palindrome {
+    color: #0000ff;
+}
+
+.not-palindrome {
+    color: #ff0000;
+}
+
+.submit_btn {
+    font-size: 20px;
+    background-color: aquamarine;
+}
+
+.submit_btn:hover {
+    background-color: chartreuse;
+    cursor: pointer;
+}
+
+.footer {
+    padding: 13px 13px 13px 13px;
+    max-width: 25%;
+    text-align: center;
+    background: darkgray;
+    margin-top: 17px;
+}
+
+.header {
+    max-width: 25%;
+    border: 1px dashed black;
+    padding: 0px 2px 2px 15px;
+    margin: 21px 0px 21px 12px;
+}

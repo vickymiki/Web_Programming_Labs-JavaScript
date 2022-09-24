@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Palindrome Checker</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="/public/css/main.css" />
+    </head>
+
+    <body>
+        <header class="header">
+            <h1>Palindrome Checker</h1>
+        </header>
+
+        <form id="pali-form" method="POST">
+            <label id="formLabel" for="pali-textarea">
+                Enter Text:
+            
+            <textarea
+                id="pali-textarea"
+                name="phrase"
+                placeholder="Enter Phrase"
+            ></textarea>
+        </label>
+            <button class="submit_btn" type="submit" id="btn-submit">Submit</button>
+        
+        </form>
+
+        <div class="div-result">
+            <ol id="attempts"></ol>
+        </div>
+
+        <div class="error" id="error-id" hidden></div>
+
+        <footer class= "footer" id="footer">
+            <h3>Vikrant Gajare : 10459368</h3>
+        </footer>
+        <script
+            src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+            crossorigin="anonymous"
+        ></script>
+        <script src="/public/js/palindrome.js"></script>
+    </body>
+</html>
