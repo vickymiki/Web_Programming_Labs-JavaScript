@@ -34,9 +34,11 @@
 <p>&nbsp;</p>
 <p><strong>For example: &nbsp;The show "Hemlock Grove" is missing the network, "Anna und die Haustiere" is missing the image and the Average Rating, "Under Arrest" is missing the Language, the Average Rating and the Network. You would display them similar to shown below.</strong></p>
 <p>&nbsp;</p>
-<p><strong><img src="/users/17837/files/7181636/preview?verifier=Lke6mcg4ZMHTKpfuG7L6mI7aTLJtrVkeX7KHan50" alt="Screen Shot 2020-11-19 at 12.28.01 PM.png" width="474" height="371" data-api-endpoint="https://sit.instructure.com/api/v1/users/17837/files/7181636" data-api-returntype="File"></strong></p>
-<p><strong><img src="/users/17837/files/7181637/preview?verifier=3lCm0n1Baq9IZFXBZlkLVWSQG4lAdznV2PxSyWsH" alt="Screen Shot 2020-11-19 at 12.27.46 PM.png" width="475" height="288" data-api-endpoint="https://sit.instructure.com/api/v1/users/17837/files/7181637" data-api-returntype="File"></strong></p>
-<p><strong><img src="/users/17837/files/7181639/preview?verifier=NahdoasZ1s1vWcVIHGD58iYQdotcigehT4W6y0Zm" alt="Screen Shot 2020-11-19 at 12.27.25 PM.png" width="472" height="286" data-api-endpoint="https://sit.instructure.com/api/v1/users/17837/files/7181639" data-api-returntype="File"></strong></p>
+  
+![image](https://user-images.githubusercontent.com/45781587/192121269-539ac430-5ac2-4f92-a318-61e088e75862.png)
+![image](https://user-images.githubusercontent.com/45781587/192121278-281f8945-b635-4046-b70b-cbe6d573fece.png)
+![image](https://user-images.githubusercontent.com/45781587/192121285-8ee40a7c-d882-4b75-bb02-5ef0565e2608.png)
+ 
 <p>Endpoint to be used: <a class="external" href="http://api.tvmaze.com/shows" target="_blank"><span>http://api.tvmaze.com/shows/:id</span></a>&nbsp;(this is read from the href attribute of the link)</p>
 <h2 id="toc_6">Style:</h2>
 <p>You are NOT required to use CSS for this lab (but you can if you want to).&nbsp;</p>
